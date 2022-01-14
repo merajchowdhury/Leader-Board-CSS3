@@ -32,4 +32,38 @@ height:56px;
 }
 hr{
     border:1px solid lightgreen;
+    margin-bottom: 30px;
+}
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 27px;
+}
+
+
+.blog{
+    display:flex;
+}
+
+
+.blog img{
+    width:177px;
+    height:117px;
+
+}
+
+.info{
+    margin-left:20px;
+}
+.title{
+    font-size: 20px;
+}
+.writer{
+    color:forestgreen;
+    
+}
+.writer a{
+    text-decoration:none;
+    font-size:16px;
+
 }
