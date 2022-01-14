@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lobster&family=Poppins:wght@500&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background-color: #ebe1e1;
+    width: 870px;
+    padding: 30pxf;
+}
+.top-players{
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+.player img{
+width:56px;
+height:56px;
+}
+.player-name{
+    margin-left:16px;
+    font-size: 18px;
+}
+hr{
+    border:1px solid lightgreen;
+}
